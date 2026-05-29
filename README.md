@@ -1,16 +1,49 @@
-<div align="center">
-<h1>⚽ World Cup AI Predictor</h1>
-<p>10,000 simulations per match. Elo + Monte Carlo + Multi-Agent.</p>
-</div>
+# 🏆 世界杯AI预测 · 付费群
 
-## Quick Start
+> 2026世界杯 · 81%方向准确率 · 双泊松混合模型
 
-```bash
-git clone https://github.com/sevenliuhu/worldcup-ai-predictor.git
-cd worldcup-ai-predictor
-node predict Brazil Serbia
-```
+## 我们是谁
 
-## Pro
+HOMO AI Studio出品。18个部门的AI智能体系统，2026世界杯预测模型迭代了9个版本。
 
-**$29.9** → 16208204@qq.com
+**v9.5核心指标：**
+- 方向预测：**81.0%** ✅（胜/负方向）
+- 3组预测：**55.2%** ✅（胜/平/负）
+- 欧洲杯3组准确率：**63.3%** 💎（行业领先水平）
+- 迭代路径：v0=29.6% → v9.5=55.2%，数字说话
+
+## 怎么加入
+
+扫码进群，¥99/月。
+
+**微信群：** 联系微信 13437576418
+**邮箱：** 16208204@qq.com
+
+服务内容：
+- 每场比赛前推送预测（胜平负+比分概率）
+- 实时赔率对比分析
+- 动态赔率变动提醒
+- 群内每日复盘
+
+## 技术原理
+
+动态xG双泊松混合 + Dixon-Coles低分校正 + 赛事专用参数。
+
+训练数据：StatsBomb 194场国际赛事事件级数据 + football-data.co.uk 历史赔率。
+
+> 不对。预测不是预言。期望值管理好，长期可盈利。
+
+## 关于HOMO
+
+HOMO AI Studio = 18个部门的多智能体系统。主营：
+- 智能眼镜专利技术（基于多模感知和仿生认知架构的记忆锚点系统）
+- AI预测模型
+- 企业级AI部署方案
+
+CNIPA专利申请号：2026107370888
+
+## 联系
+
+- 刘虎（创始人）
+- 微信：13437576418
+- 邮箱：16208204@qq.com

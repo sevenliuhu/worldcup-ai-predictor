@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>大佬视角 · 决策分析服务</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;background:#0a0a0f;color:#e0e0e0;line-height:1.6}
+.container{max-width:700px;margin:0 auto;padding:20px}
+header{text-align:center;padding:50px 0 30px}
+h1{font-size:2.2em;background:linear-gradient(135deg,#00c6ff,#0072ff);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:10px}
+.subtitle{color:#888;font-size:1.05em}
+.persons{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin:30px 0}
+.person-card{background:#13131f;border-radius:10px;padding:16px;text-align:center;border:1px solid #1e1e2e}
+.person-card .name{color:#fff;font-weight:600;font-size:1.1em}
+.person-card .title{color:#666;font-size:.8em;margin-top:4px}
+.person-card .tag{display:inline-block;background:#1a1a2e;color:#00c6ff;font-size:.75em;padding:2px 8px;border-radius:10px;margin-top:6px}
+.cta-box{background:linear-gradient(135deg,#13131f,#0d1b2a);border:1px solid #00c6ff;border-radius:12px;padding:28px;text-align:center;margin:30px 0}
+.cta-box h2{color:#00c6ff;font-size:1.3em;margin-bottom:8px}
+.price{font-size:2em;color:#fff;margin:12px 0}
+.price small{font-size:.4em;color:#888}
+.price .original{text-decoration:line-through;color:#555;font-size:.6em}
+.contact{background:#13131f;border-radius:10px;padding:20px;margin:20px 0;border:1px solid #1e1e2e}
+.contact-item{padding:8px 0;display:flex;justify-content:space-between;border-bottom:1px solid #1e1e2e}
+.contact-item:last-child{border-bottom:none}
+.contact-label{color:#888}
+.contact-value{color:#00c6ff;font-weight:500}
+.process{display:grid;grid-template-columns:1fr;gap:10px;margin:30px 0}
+.process-step{background:#13131f;border-radius:8px;padding:14px 16px;border-left:3px solid #00c6ff}
+.process-step .step-num{color:#00c6ff;font-weight:600;font-size:.85em}
+.process-step .step-desc{color:#ccc;font-size:.95em;margin-top:4px}
+.samples{margin:30px 0}
+.samples h3{color:#00c6ff;margin-bottom:12px}
+.sample-list{list-style:none}
+.sample-list li{background:#13131f;padding:12px 16px;border-radius:8px;margin-bottom:8px;border:1px solid #1e1e2e;font-size:.9em}
+.sample-list li::before{content:"▸ ";color:#00c6ff}
+.faq{margin:30px 0}
+.faq h3{color:#00c6ff;margin-bottom:12px}
+.faq-item{padding:10px 0;border-bottom:1px solid #1e1e2e}
+.faq-q{color:#fff;font-weight:500}
+.faq-a{color:#888;font-size:.88em;margin-top:4px}
+.footer{text-align:center;padding:40px 0;color:#444;font-size:.85em}
+@media(max-width:500px){.persons{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="container">
+
+<header>
+  <h1>🧠 大佬视角 · 决策分析</h1>
+  <p class="subtitle">让你的决策，经过14位世界级头脑的检验</p>
+</header>
+
+<div class="persons">
+  <div class="person-card">
+    <div class="name">马斯克</div>
+    <div class="title">第一性原理 · 成本拆解</div>
+    <span class="tag">白痴指数</span>
+  </div>
+  <div class="person-card">
+    <div class="name">Naval</div>
+    <div class="title">财富杠杆 · 特定知识</div>
+    <span class="tag">宿醉角度</span>
+  </div>
+  <div class="person-card">
+    <div class="name">塔勒布</div>
+    <div class="title">反脆弱 · 黑天鹅</div>
+    <span class="tag">杠铃策略</span>
+  </div>
+  <div class="person-card">
+    <div class="name">芒格</div>
+    <div class="title">逆向思维 · 能力圈</div>
+    <span class="tag">心理模型</span>
+  </div>
+</div>
+
+<div class="cta-box">
+  <h2>拿不准的决策，让大佬帮你拆</h2>
+  <p style="color:#aaa;font-size:.9em">跳槽 · 副业 · 创业 · 投资 · 商业模式</p>
+  <div class="price">
+    <span class="original">¥298</span> ¥198
+    <small>（限前3单）</small>
+  </div>
+  <p style="color:#888;font-size:.9em">48小时交付 · 2000字深度分析 · 不满意退钱</p>
+</div>
+
+<div class="contact">
+  <h3 style="color:#00c6ff;margin-bottom:12px">📱 下单联系</h3>
+  <div class="contact-item">
+    <span class="contact-label">微信</span>
+    <span class="contact-value">13437576418</span>
+  </div>
+  <div class="contact-item">
+    <span class="contact-label">邮箱</span>
+    <span class="contact-value">16208204@qq.com</span>
+  </div>
+</div>
+
+<div class="process">
+  <h3 style="color:#00c6ff;margin-bottom:10px">流程</h3>
+  <div class="process-step">
+    <div class="step-num">01 下单</div>
+    <div class="step-desc">告诉我你的问题。越具体越好：「我要不要跳槽」不如「当前公司A vs 新公司B，薪资差距X，我应该考虑什么？」</div>
+  </div>
+  <div class="process-step">
+    <div class="step-num">02 分析</div>
+    <div class="step-desc">4位大佬视角轮番拆解。48小时内交付完整报告。</div>
+  </div>
+  <div class="process-step">
+    <div class="step-num">03 交付</div>
+    <div class="step-desc">收到报告。不满意退全款。</div>
+  </div>
+</div>
+
+<div class="samples">
+  <h3>适合什么问题</h3>
+  <ul class="sample-list">
+    <li>要不要从大厂跳槽到一个创业公司？</li>
+    <li>我的副业方向选对了没有？</li>
+    <li>投资XXXX项目，风险在哪里？</li>
+    <li>我这个生意成本结构能不能优化？</li>
+    <li>要不要All in一个新赛道？</li>
+  </ul>
+</div>
+
+<div class="faq">
+  <h3>常见问题</h3>
+  <div class="faq-item">
+    <div class="faq-q">这是算命吗？</div>
+    <div class="faq-a">不是。这是思维工具。我们用4位世界级大佬的决策框架，帮你从不同角度审视一个问题。框架本身是公开的，但多数人不会用、或者不知道怎么用到自己的具体情况上。</div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-q">怎么保证质量？</div>
+    <div class="faq-a">不满意退全款。你敢买，我就敢保。</div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-q">怎么付款？</div>
+    <div class="faq-a">微信转账。报告交付后你觉得值再付也行。</div>
+  </div>
+</div>
+
+<div class="footer">
+  <p>HOMO AI Studio · 18部门多智能体系统</p>
+  <p>微信 13437576418 | 邮箱 16208204@qq.com</p>
+</div>
+
+</div>
+</body>
+</html>
